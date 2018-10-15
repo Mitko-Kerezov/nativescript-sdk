@@ -40,6 +40,11 @@
         "type": "before-checkForChanges",
         "script": "lib/before-checkForChanges.js",
         "inject": true
+      },
+      {
+        "type": "before-preview-sync",
+        "script": "lib/before-preview-sync.js",
+        "inject": true
       }
     ],
     "platforms": {
